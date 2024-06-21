@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  html,body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .header {
+    height: 80px;
+    background-color: #C8D5F5;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .content {
+    width: 100%;
+    height: calc(100% - 130px);
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .btn {
+    margin: 0 10px;
+  }
+  .btn img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .content img {
+    width: 100%;
+  }
+  .footer {
+    background-color: #7D91CC;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px 20px;
+    color: #fff;
+    box-sizing: border-box;
+  }
+</style>
+<body>
+  <div class="header">
+    <img style="width: 50px;margin: 0 20px;" src="./img/logo.jpg" alt="">
+    <div style="font-size: 22px;font-weight: 600;">人文艺术与数字媒体学院</div>
+    <div style="position: absolute;right: 10px;bottom: 5px;display: flex;">
+      <div class="btn"><img src="./img/home.png" alt=""></div>
+      <div class="btn"><img src="./img/person.png" alt=""></div>
+      <div class="btn"><img src="./img/set.png" alt=""></div>
+      <div class="btn"><img src="./img/more.png" alt=""></div>
+    </div>
+  </div>
+  <div class="content">
+    <div style="text-align: center;font-size: 32px;font-weight: 800;margin: 20px 0;">学院新闻</div>
+    <div style="display: flex;align-items: flex-start;justify-content: center;">
+      <div style="width: 25%">
+        <img src="./img/4.jpg" alt="">
+        <img style="margin-top: 30px;" src="./img/6.jpg" alt="">
+      </div>
+      <div style="width: 20%;margin: 0 50px;font-size: 12px;">
+        <div style="margin-bottom: 20px;">
+          5月31日，杭州电子科技大学2024届毕业设计优秀作品展在滨江银泰百货A区一楼展出。近60余件来自杭州电子科技大学人文艺术与数字媒体学院工业设计专业、数字媒体艺术专业、产品设计专业的本科毕业设计优秀作品集中展出。展品涉及品牌识别与整合设计类、文创产品类、关注特定人群的辅助设备类、数字交互类、影音动画类等多种类型。
+        </div>
+        <div style="margin-bottom: 20px;">
+          本次展出的多件品牌识别、文创产品类设计作品融入了中国传统文化底色，如《藏族唐卡文创产品与包装设计》基于唐卡这一非物质文化遗产，融合现代审美与传统文化精髓，展现唐卡艺术的独特魅力。作品《“绿肥红瘦”宁海十里红妆文创设计》提取宁海十里红妆中的吉祥元素进行纹样创作，并打造专属十里红妆的IP形象；而作品《“婺源风华”文创产品与包装设计》展现婺源当地美丽景致和丰富的非物质文化遗产——打铁花、油纸伞和板龙灯。此外，蜡染、拼布艺术、民间传说、戏曲文化、地域文化等也都在本次优秀毕业作品展中有丰富体现。
+        </div>
+        <div style="margin-bottom: 20px;">
+          本次展览为期3天，持续到6月2日结束，每日展出时间为10:00至22:00。这一批优秀毕业设计作品后续还将推出线上展览。
+        </div>
+        <div>
+          本次展览是杭州电子科技大学人文艺术与数字媒体学院艺术设计类毕业设计展第一次走出校园、走进产业，也是在学校教务处关心和推动下，，与阿里巴巴银泰商业设计中心的首次合作。未来已来，校企携手共筑AI设计人才培养之道。
+        </div>
+      </div>
+      <div style="width: 25%">
+        <img src="./img/5.png" alt="">
+        <img style="margin-top: 30px;" src="./img/3.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    邮箱：
+  </div>
+</body>
+</html>
